@@ -1,0 +1,408 @@
+body{
+    
+    overflow: auto;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    float: right;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    height:6vw;
+    width: 100%;
+    padding: -36px 100px;
+    background-color: #be8a62;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 143;
+
+
+
+}
+
+.navbar a{
+    float: left;
+    text-decoration: none;
+    
+    color:rgb(244, 240, 237);
+    margin: 1.5vw 1vw;
+}
+.navbar a:hover{
+    color:rgb(24, 20, 20);
+    cursor:pointer;
+}
+.search{
+    float: right;
+    color: rgb(244, 240, 237) ;
+    padding: 0vw 9vw;
+}
+.navbar input{
+    border: 0.1vw solid #be8a62;
+    border-radius: 6vw;
+    padding: 18px 54px;
+}
+.navbar img{
+    width: 9vw;
+    height: 6vw;
+    float: left;
+    padding: 0vw 0vw;
+    margin: 0vw 1vw;
+
+}
+.navbar img :hover{
+    background-color: #ffe9c7;
+}
+input#search{
+    margin:0.3vw -4vw;
+    padding: 1vw 1vw;
+    width: 13vw;
+    font-size: 1.5vw;
+    position: fixed;
+    top: 0.7vw;
+    left: 89vw;
+}
+.navbar div{
+    width: 5vw;
+    height: 6vw;
+}
+.Home{
+    height: 0vw;
+    width: 1vw;
+    font-size: 1.5vw;
+    position: fixed;
+    top: 0.6vw;
+    left: 50vw;
+} 
+.About  {
+    font-size: 1.5vw;
+    position: fixed;
+    top: 0.6vw;
+    left: 57vw;
+}
+.books{
+    font-size: 1.5vw;
+    position: fixed;
+    top: 0.6vw;
+    left: 64vw;
+}
+.rec{
+    font-size: 1.5vw;
+    position: fixed;
+    top: 0.6vw;
+    left: 77vw;
+}
+
+
+.search{
+    width: 60px;
+}
+.Contact {
+    width: 75px;
+    margin: 28px 11px;
+}
+.nav{
+    margin: -5px 10px ;
+}
+.intro{
+    height: 58vw;
+    margin: 0vw 0vw;
+    display: flex;
+    background-color: #ffe9c7;
+    position: relative;
+    
+}
+.speech > div {
+    margin: 10px;
+    padding: 20px;
+}
+.boy img{
+    display: flex;
+    float: left;
+    height: 55vw;
+    width: 86vw;
+    padding: 2vw 8vw;
+    margin: 4vw -19vw;
+
+
+}
+.speech{
+    margin: 7vw 1vw;
+}
+.Makam{
+    display: flex;
+    padding: 1vw 1vw;
+    margin: 13vw 2vw;
+    font-size: 5vw;
+    font-weight: 400;
+    z-index: 200;
+}
+.subt{
+    display: flex;
+    padding: -5vw 1vw;
+    margin: -13vw 3vw;
+    font-size: 4.8vw;
+    font-weight: 600;
+}
+.speech a{
+    height: 3vw;
+    display: flex;
+    border: 40px 40px;
+    margin: 17vw 4vw;
+     width: 15vw;
+    color:rgb(244, 240, 237);
+    background-color:#be8a62;
+    border-color: rgb(194, 115, 115);
+    border-radius:6vw;
+    padding: -1vw 18vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6vw;
+    
+    
+}
+.speech a:hover{
+    color:#ffe9c7;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.best_selling_books{
+    height: 69vw;
+    margin: 0vw -7vw;
+    position: relative;
+    background-color:whitesmoke ;
+}
+.Recomendation{
+    height: 902px;
+    margin: 0px -18px;
+    position: relative;
+    background-color:white;
+}
+.recom{
+    margin: 7vw 2vw;
+    padding: 0vw;
+    text-align: center;
+    font-size:9vw ;
+}
+.pages{
+    padding:2vw;
+}
+.booktitle{
+    margin: 5vw 7vw;
+    text-align: center;
+    font-size: 6.8vw;
+}
+.subtitle{
+    margin: 3vw 6vw;
+    text-align: center;
+    font-size: 8vw;
+}
+.tbook{
+    display: flex;
+    width: 73vw;
+    margin: -6vw 20vw;
+    justify-content: space-between;
+
+}
+.pbook{
+    display: flex;
+    width: 73vw;
+    margin: 4vw 13vw;
+    justify-content: space-between;
+
+}
+.cards{
+    height: 26vw;
+    justify-content: space-between;
+    margin: 4vw -11vw;
+    width: 18vw;
+    background-color:rgb(244, 240, 237) ;
+    display: flex;
+    flex-direction: column;
+}
+.cards img{
+    height: 16vw;
+    width: 15vw;
+    margin: 1.6vw 1.4vw;
+
+}
+.cards p{
+    margin:-2vw 0vw;
+    text-align: center;
+    font-size: 2vw;
+    padding: 0vw 1vw;
+
+}
+.rates h6{
+    margin: 0.1vw -1vw;
+    font-size: 2vw;
+}
+.rates p{
+    text-decoration: line-through;
+    margin: 0.4vw 0.5vw;
+    font-size: 1.5vw;
+}
+.rates{
+    display: flex;
+    width: 14vw;
+    margin: 0vw auto;
+    justify-content: space-between;
+}
+.rates h3{
+    margin: 0.9vw 0vw;
+    font-size: 0.9vw;
+    color: #be8a62;
+}
+.cards img:hover{
+    height: 16.4vw;
+    width: 15.4vw;
+    transition: 1s;
+    margin: 1.6vw 1.4vw;
+}
+.Review{
+    background-color: #ffe9c7;
+}
+.review{
+    padding: 2vw 1vw;
+    margin: 4vw 3vw;
+    font-size: 5vw;
+    text-align: center;
+}
+.trev{ 
+    width: 87vw;
+    padding: 1vw 2vw;
+    display: flex;
+    margin: 2vw 7vw;
+}
+.card2{
+    padding: 1vw 3vw;
+    margin: 1vw 1vw;
+    background-color:rgb(244, 240, 237) ;
+    border-radius: 2vw;
+}
+.card3{
+    padding: 2vw 6vw;
+    margin: 0vw 22vw;
+    background-color:rgb(244, 240, 237) ;
+    border-radius: 2vw;
+}
+.your{
+    text-align: center;
+}
+.card3 input{
+    border: 0.1vw solid rgb(106, 100, 100);
+    border-radius: 2vw;
+    margin: 1vw;
+    padding: 1vw 2vw;
+}
+.card3 textarea{
+    border: 0.1vw solid rgb(106, 100, 100);
+    border-radius: 2vw;
+
+}
+.footer{
+    background-color: #be8a62;
+    padding: 0vw 0vw;
+    max-resolution: 0vw auto;
+}
+.foot{
+    margin: 0vw 1vw;270px
+    width: 100%;
+    padding: 0vw 2vw;
+
+}
+.links{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.links a{
+     padding: 0vw ovw;
+     margin: 1vw 2vw;
+     border-radius: 50%;
+
+}
+
+
+.links img{
+    height: 3vw;
+    width: 3vw;
+
+}
+.links img:hover{
+    height: 3vw;
+    width: 4vw;
+
+}
+.links p{
+    color: #ffe9c7;
+    position: relative;
+    bottom: 0vw ;
+    left: -24vw;
+    margin: -1vw 19vw;
+    padding: 1vw 1vw;
+    
+}
+.footer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.links p:hover{
+    color: rgb(244, 240, 237);
+}
+.bt a{
+    height: 3vw;
+    display: flex;
+    margin: 0vw 94vw;
+    width: 1vw;
+
+}
+.bt img{
+    margin: -12vw -2vw;
+    width: 21vw;
+    height: 3vw;
+}
+.intro{
+    width: 109vw;
+}
+.best_selling_books{
+    width: 108vw;
+}
+.Recommendation{
+    width: 101vw;
+}
+.Review{
+    width: 101vw;
+}
+.footer{
+    width: 101vw;
+}
+.fav img{
+    position: absolute;
+    left: 8.8vw;
+    top: 41.3vw;
+
+    height: 2vw;
+    width: 2vw;
+}
+.fav img:hover{
+    left: 8.8vw;
+    top: 41.3vw;
+    height: 2vw;
+    width: 2vw;
+    
+}
+
+
+
+
